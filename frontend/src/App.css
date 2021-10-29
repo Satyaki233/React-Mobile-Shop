@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+
+
+.grid-view{
+  display:grid;
+  grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+}
+
+.cart-view{
+  display:flex;
+  flex-direction:column;
+   
+}
+.cart-component{
+  display:flex;
+  flex-direction:column;
+   
+}
+.cart-item{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
