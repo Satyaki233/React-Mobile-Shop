@@ -28,9 +28,11 @@ const reducer = (state , action ) =>{
 
 
 
+
 function App() {
   const [product , dispatch ] = useReducer(reducer , initState );
   
+ 
   const saveToLocal = (product) =>{
     if(product.length > 0){
       localStorage.setItem('cart',JSON.stringify(product));
@@ -58,7 +60,8 @@ function App() {
     console.log(product.length)
     saveToLocal(product)
   },[product])
-
+  
+  
 
   return (
     <Router>

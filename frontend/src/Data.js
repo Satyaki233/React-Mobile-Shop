@@ -16,5 +16,14 @@ export const Data = [
         Warenty: 1,
         Number:0,
         price:'100$'
+    },
+    {
+        id:3,
+        name: 'Dan',
+        cpu : 'AARM',
+        ram : 14,
+        Warenty: 1,
+        Number:0,
+        price:'105$'
     }
 ];
